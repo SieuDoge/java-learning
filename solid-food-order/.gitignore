@@ -1,0 +1,26 @@
+# Compiled
+*.class
+*.jar
+*.war
+
+# Build
+target/
+out/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# MacOS
+.DS_Store
+
+# Log
+*.log
