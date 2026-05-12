@@ -43,7 +43,7 @@ public class StudentService {
                 .collect(Collectors.toList());
     }
 
-    List<Student> topByGpa(int n) {
+    public List<Student> topByGpa(int n) {
         return repository.findAll().stream()
                 .sorted((a, b) -> Double.compare(b.getGpa(), a.getGpa()))
                 .limit(n)
